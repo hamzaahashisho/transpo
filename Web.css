@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0a4d96;  /* Blue Color */
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #e0f1ff; /* Light Blue */
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #0a4d96;
+}
+
+button {
+    background-color: #0a4d96;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #084b7a;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+footer {
+    background-color: #0a4d96;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #0a4d96;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #084b7a;
+}
+
+a {
+    text-decoration: none;
+    color: #f4f4f4;
+    margin: 0 2rem;
+}
+
+.first {
+    color: #f4f4f4;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.second {
+    color: #f4f4f4;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
